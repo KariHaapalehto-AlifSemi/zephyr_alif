@@ -25,6 +25,8 @@ manifest:
       url-base: https://github.com/BabbleSim
     - name: alif
       url-base: https://github.com/alifsemi
+    - name: kari-alif
+      url-base: https://github.com/KariHaapalehto-AlifSemi
 
   group-filter: [-babblesim, -optional]
 
@@ -149,9 +151,9 @@ manifest:
       groups:
         - hal
     - name: hal_alif
-      revision: 6f5a94a0dbcaf394b84695b946dc71d035762892
+      revision: bd5ca836cbde772ed4030ad9c3feb0313984eb10
       path: modules/hal/alif
-      remote: alif
+      remote: kari-alif
       groups:
         - hal
     - name: hal_altera
